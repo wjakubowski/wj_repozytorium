@@ -1,0 +1,38 @@
+body{
+	background-color: lightblue;
+}
+
+canvas{
+	position : relative;
+	left: 5%;
+	top: 10%;
+	height: 100%;
+	border: 3px solid #73AD21;
+}
+
+#parametry_symulacji{
+	position : relative;
+	left: 60%;
+	top: 10%;
+
+}
+
+span{
+	float:left;
+}
+
+div,textarea,select {
+	display: block;
+}
+
+a,.parametry{
+	display: block;
+}
+
+#instrukcje{
+	display: block;
+}
+
+p{
+	float:left;
+}

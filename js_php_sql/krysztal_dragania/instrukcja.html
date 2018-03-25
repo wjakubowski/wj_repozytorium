@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Animacja drgań atomów w krysztale</title>
+		<script src="proj1.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Symulacja drgań sieci krystalicznej</h1>
+			<h3>Instrukcje</h3>
+			<a href = "index.html">powrót do symulacji</a>
+			<h3>
+				Nawigacja
+			</h3>
+			<nav>
+				<a href="#parametry">Parametry Symulacji</a>
+				<a href="#ustawianie_atomow">Ustawianie Atomow</a>
+				<a href="#wybor_metody_numerycznej">Wybor Metody Numerycznej</a>
+			
+			</nav>
+			
+			<h3 id = "parametry"> Parametry Symulacji <h3>
+				<h5>
+					Promień atomu - odpowiada za wielkość wyświetlanych atomów.
+				</h5>
+				<h5>
+					Ilość atomów w kolumnie/wierszu - odpowiada za ilość węzłów sieci w kolumnach i wierszach, całkowita ilość węzłów sieci to N*N.
+				</h5>
+				<h5>
+					Krok czasowy - odpowiada za długość kroku czasowego symulacji, im niejszy krok czasowy tym dokładniejsze obliczenia, 
+					jednak bardzo mały krok czasowy sprawia że obliczenia stają się bardzo powolne.
+				</h5>
+				<h5>
+					Co ile kroków czasowych klatka animacji - ze względu na wysokie koszty obliczeniowe, najlepiej kolejne klatki animacji rysować 
+					po wykonaniu kilku iteracji symulacji.
+				</h5>
+				
+			<h3 id = "ustawianie_atomow"> Przestawianie atomów - wychylanie ze stanu równowagi<h3>
+				<h5>
+					Aby ustawić atom nalerzy wybrać jego pozycję węzłową w sieci (licząc od "0" od lewego górnego rogu). Odpowiadają za to parametry:
+					"pozycja X", "pozycja Y". Wybrany atom zaznaczony jest na zielono. Następnie nalerzy ustalić nowe współrzędne atomu i wpisać je do 
+					okienek "nowe położenie wybranego atomu X,Y".
+				</h5>
+				
+			<h3 id= "wybor_metody_numerycznej">Wybor Metody Numerycznej</h3>
+				<h5>
+					Aby wybrać metodę numeryczną należy wybrać określoną opcję z listy rozwijanej.
+				</h5>
+				<h5>
+					Metoda Eulera
+					<br>
+					To najszybsza i najprostsza, lecz najmniej dokładna metoda numeryczna. Kolejne kroki symulacji wyznaczane są na podstawie wzorów:
+					<br>
+					x(n+1) = x(n) + v(n)*h 
+					<br>
+					v(n+1) = v(n) + a(n)*h
+					<br>
+					gdzie: n-numer iteracji, x-położenie, v-prędkość, a-przyspieszenie, h-krok czasowy
+				</h5>
+				
+				<h5>
+					Metoda Varleta
+					<br>
+					Najczęściej stosowana w dynamice molekularnej metoda całkowania równań ruchu, będąca kompromisem między szybkością a dokładnością.
+					Kolejne kroki symulacji wyznaczane są na podstawie wzorów:
+					<br>
+					x(n+1) = x(n) + v(n)*h + 0.5*a(n)*h^2
+					<br>
+					v(n+1) = v(n) + 0.5*(a(n)+a(n+1))*h
+				</h5>
+				<h5>
+					Metoda Beemana-Schofielda
+					<br>
+					Najczęściej dokładniejsza metoda, pozwalająca w możliwie maksymalnym stopniu realizować zasadę stałości energii w układzie zamkniętym.
+					Kolejne kroki symulacji wyznaczane są na podstawie wzorów:
+					<br>
+					x(n+1) = x(n) + v(n)*h + h^2 / 6 *(4*a(n)-a(n-1))
+					<br>
+					v(n+1) = v(n) + (2*a(n+1)+5*a(n)-a(n-1))*h/6
+				</h5>
+			
+		</header>
+		
+
+		
+		
+	</body> 
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="dodaj_pomiar.js"></script>
+  <title>Dodaj pomiar</title>
+  </head>
+  <body>
+	<p id="urzadzenie_id"><?=$_SESSION['urzadzenie_id'];?></p>
+     <form>
+        temperatura[C]:<input type="number" id="temperatura" name="temperatura"><br/>
+        cisnienie[hPa]:<input type="number" id="cisnienie" name="cisnienie"><br/>
+        sila wiatru [m/s]:<input type="number" id="sila_wiatru" name="sila_wiatru"><br/>
+		kierunek wiatru [stopnie]:<input type="number" id="kierunek_wiatru" name="kierunek_wiatru"><br/>
+     </form> 
+	<button onclick="zapiszRekordDoBufora()">Zatwierdz pomiar</button>
+	<p>Bufor przegladarki</p>
+	<div id="bufor">
+	</div>
+	<button onclick="wyczyscBufor()">Wyczysc caly bufor pomiarow</button>
+	<button onclick="synchronizujDane()">Synchronizuj</button>
+	<p><a href='index.php'>Powrot do programu glownego</a></p>	 
+  </body>
+</html>

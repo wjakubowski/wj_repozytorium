@@ -1,0 +1,1455 @@
+# depslib dependency file v1.0
+1515680285 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\garandom.h
+	<stdlib.h>
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<math.h>
+	<limits.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatypes.h
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaconfig.h
+	<sgidefs.h>
+	<stdlib.h>
+	<assert.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga1darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaarray.h
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gagenome.h
+	<ga/gaid.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAEvalData.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaid.h
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaerror.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\std_stream.h
+	<ga/gaconfig.h>
+	<iostream>
+	<fstream>
+	<iostream.h>
+	<fstream.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaevaldata.h
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaallele.h
+	<ga/gaconfig.h>
+	<ga/garandom.h>
+	<ga/std_stream.h>
+	<ga/GAAllele.C>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1515680285 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gamask.h
+	<string.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga1dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA1DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga1dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabinstr.h
+	<string.h>
+	<ga/gatypes.h>
+	<ga/garandom.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga2darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA2DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga2dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA2DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga2dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga3darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA3DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga3dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA3DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga3dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabasega.c
+	<stdio.h>
+	<string.h>
+	<ga/GABaseGA.h>
+	<ga/garandom.h>
+	<ga/gaversion.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabasega.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GAParameter.h>
+	<ga/GAStatistics.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaparameter.h
+	<ga/gaconfig.h>
+	<ga/gatypes.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gastatistics.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gapopulation.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GASelector.h>
+	<ga/GAScaling.h>
+	<ga/GAEvalData.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaselector.h
+	<string.h>
+	<ga/gaid.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gascaling.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/gatypes.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaversion.h
+	<ga/gaconfig.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabin2decgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GABin2DecGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabin2decgenome.h
+	<ga/GA1DBinStrGenome.h>
+	<ga/gabincvt.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabincvt.h
+	<ga/gatypes.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabincvt.c
+	<stdio.h>
+	<limits.h>
+	<string.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/gabincvt.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gabinstr.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GABinStr.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gadcrowdingga.c
+	"GADCrowdingGA.h"
+	"GAList.h"
+	"garandom.h"
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gadcrowdingga.h
+	<ga/GABaseGA.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galist.h
+	<ga/gaerror.h>
+	<ga/GAListBASE.h>
+	<ga/GAList.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galistbase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ganode.h
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galist.c
+	<ga/GAList.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gademega.c
+	<ga/garandom.h>
+	<ga/GADemeGA.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gademega.h
+	<ga/GABaseGA.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaerror.c
+	<string.h>
+	<ga/gaerror.h>
+	<stdio.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gagenome.c
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaincga.c
+	<ga/GAIncGA.h>
+	<ga/garandom.h>
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaincga.h
+	<ga/GABaseGA.h>
+
+1510585886 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galist.c
+	<ga/GAList.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galistbase.c
+	<ga/GAListBASE.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galistgenome.h
+	<ga/GAList.h>
+	<ga/GAGenome.h>
+	<ga/GAListGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaparameter.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAParameter.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gapopulation.c
+	<string.h>
+	<math.h>
+	<ga/GAPopulation.h>
+	<ga/GASelector.h>
+	<ga/garandom.h>
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\garandom.c
+	<ga/garandom.h>
+	<time.h>
+	<math.h>
+	<string.h>
+	<unistd.h>
+
+1510582288 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\garealgenome.c
+	<ga/GARealGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\garealgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GARealGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\garealgenome.c
+	<ga/GARealGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gascaling.c
+	<math.h>
+	<ga/gaerror.h>
+	<ga/GAScaling.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gaselector.c
+	<ga/gaconfig.h>
+	<ga/GAPopulation.h>
+	<ga/GAGenome.h>
+	<ga/GASelector.h>
+	<ga/garandom.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gasimplega.c
+	<ga/GASimpleGA.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gasimplega.h
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gasstatega.c
+	<ga/GASStateGA.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gasstatega.h
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gastatistics.c
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GAStatistics.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gastringgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAStringGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatree.h
+	<ga/gaerror.h>
+	<ga/GATreeBASE.h>
+	<ga/GATree.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatreebase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatreebase.c
+	<ga/GATreeBASE.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatreegenome.h
+	<ga/GATree.h>
+	<ga/GAGenome.h>
+	<ga/GATreeGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+
+1515801808 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\galib_01.cpp
+	<cstdlib>
+	<iostream>
+	<conio.h>
+	<ga.h>
+	<time.h>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	<cmath>
+	<fstream>
+	<sstream>
+	"plyty/plyty.h"
+	"ga/GARealGenome.h"
+	"ga/GARealGenome.C"
+
+1510585886 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\ga\ga.h
+	<ga/gaconfig.h>
+	<ga/GASimpleGA.h>
+	<ga/GASStateGA.h>
+	<ga/GAIncGA.h>
+	<ga/GADemeGA.h>
+	<ga/GADCrowdingGA.h>
+	<ga/GA1DBinStrGenome.h>
+	<ga/GA2DBinStrGenome.h>
+	<ga/GA3DBinStrGenome.h>
+	<ga/GABin2DecGenome.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAListGenome.h>
+	<ga/GATreeGenome.h>
+
+1515432605 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\src_plyty\plyty.h
+	<iostream>
+	<vector>
+
+1515679875 c:\users\wojciech\dropbox\sem9\alggen\projekt\program\plyty\plyty.h
+	<iostream>
+	<vector>
+
+1515787374 source:c:\users\wojciech\dropbox\sem9\alggen\projekt\program\plyty\plyty.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	<cmath>
+	<fstream>
+	<sstream>
+	"plyty.h"
+
+1515680285 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\garandom.h
+	<stdlib.h>
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<math.h>
+	<limits.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatypes.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaconfig.h
+	<sgidefs.h>
+	<stdlib.h>
+	<assert.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga1darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaarray.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gagenome.h
+	<ga/gaid.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAEvalData.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaid.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaerror.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\std_stream.h
+	<ga/gaconfig.h>
+	<iostream>
+	<fstream>
+	<iostream.h>
+	<fstream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaevaldata.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaallele.h
+	<ga/gaconfig.h>
+	<ga/garandom.h>
+	<ga/std_stream.h>
+	<ga/GAAllele.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1515680285 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gamask.h
+	<string.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga1dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA1DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga1dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabinstr.h
+	<string.h>
+	<ga/gatypes.h>
+	<ga/garandom.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga2darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA2DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga2dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA2DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga2dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga3darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA3DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga3dbinstrgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/garandom.h>
+	<ga/GA3DBinStrGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga3dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabasega.c
+	<stdio.h>
+	<string.h>
+	<ga/GABaseGA.h>
+	<ga/garandom.h>
+	<ga/gaversion.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabasega.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GAParameter.h>
+	<ga/GAStatistics.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaparameter.h
+	<ga/gaconfig.h>
+	<ga/gatypes.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gastatistics.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gapopulation.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GASelector.h>
+	<ga/GAScaling.h>
+	<ga/GAEvalData.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaselector.h
+	<string.h>
+	<ga/gaid.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gascaling.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/gatypes.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaversion.h
+	<ga/gaconfig.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabin2decgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GABin2DecGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabin2decgenome.h
+	<ga/GA1DBinStrGenome.h>
+	<ga/gabincvt.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabincvt.h
+	<ga/gatypes.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabincvt.c
+	<stdio.h>
+	<limits.h>
+	<string.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/gabincvt.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gabinstr.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GABinStr.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gadcrowdingga.c
+	"GADCrowdingGA.h"
+	"GAList.h"
+	"garandom.h"
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gadcrowdingga.h
+	<ga/GABaseGA.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galist.h
+	<ga/gaerror.h>
+	<ga/GAListBASE.h>
+	<ga/GAList.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galistbase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ganode.h
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galist.c
+	<ga/GAList.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gademega.c
+	<ga/garandom.h>
+	<ga/GADemeGA.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gademega.h
+	<ga/GABaseGA.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaerror.c
+	<string.h>
+	<ga/gaerror.h>
+	<stdio.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gagenome.c
+	<ga/GAGenome.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaincga.c
+	<ga/GAIncGA.h>
+	<ga/garandom.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaincga.h
+	<ga/GABaseGA.h>
+
+1510585886 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galist.c
+	<ga/GAList.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galistbase.c
+	<ga/GAListBASE.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galistgenome.h
+	<ga/GAList.h>
+	<ga/GAGenome.h>
+	<ga/GAListGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaparameter.c
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAParameter.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gapopulation.c
+	<string.h>
+	<math.h>
+	<ga/GAPopulation.h>
+	<ga/GASelector.h>
+	<ga/garandom.h>
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\garandom.c
+	<ga/garandom.h>
+	<time.h>
+	<math.h>
+	<string.h>
+	<unistd.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gascaling.c
+	<math.h>
+	<ga/gaerror.h>
+	<ga/GAScaling.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gaselector.c
+	<ga/gaconfig.h>
+	<ga/GAPopulation.h>
+	<ga/GAGenome.h>
+	<ga/GASelector.h>
+	<ga/garandom.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gasimplega.c
+	<ga/GASimpleGA.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gasimplega.h
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gasstatega.c
+	<ga/GASStateGA.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gasstatega.h
+	<ga/GABaseGA.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gastatistics.c
+	<string.h>
+	<ga/gaerror.h>
+	<ga/GAStatistics.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gastringgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAStringGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatree.h
+	<ga/gaerror.h>
+	<ga/GATreeBASE.h>
+	<ga/GATree.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatreebase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatreebase.c
+	<ga/GATreeBASE.h>
+	<ga/gaerror.h>
+
+1510585888 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatreegenome.h
+	<ga/GATree.h>
+	<ga/GAGenome.h>
+	<ga/GATreeGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+
+1522021923 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\galib_01.cpp
+	<cstdlib>
+	<iostream>
+	<conio.h>
+	<ga.h>
+	<time.h>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	<cmath>
+	<fstream>
+	<sstream>
+	"plyty/plyty.h"
+	"ga/GARealGenome.h"
+	"ga/GARealGenome.C"
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\ga.h
+	<ga/gaconfig.h>
+	<ga/GASimpleGA.h>
+	<ga/GASStateGA.h>
+	<ga/GAIncGA.h>
+	<ga/GADemeGA.h>
+	<ga/GADCrowdingGA.h>
+	<ga/GA1DBinStrGenome.h>
+	<ga/GA2DBinStrGenome.h>
+	<ga/GA3DBinStrGenome.h>
+	<ga/GABin2DecGenome.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAListGenome.h>
+	<ga/GATreeGenome.h>
+
+1515679875 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\plyty\plyty.h
+	<iostream>
+	<vector>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\garealgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GARealGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\ga\garealgenome.c
+	<ga/GARealGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1515787374 source:c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\plyty\plyty.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<string>
+	<cmath>
+	<fstream>
+	<sstream>
+	"plyty.h"
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\garandom.h
+	<stdlib.h>
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<math.h>
+	<limits.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatypes.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaconfig.h
+	<sgidefs.h>
+	<stdlib.h>
+	<assert.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga1darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaarray.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gagenome.h
+	<ga/gaid.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAEvalData.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaid.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaerror.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\std_stream.h
+	<ga/gaconfig.h>
+	<iostream>
+	<fstream>
+	<iostream.h>
+	<fstream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaevaldata.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaallele.h
+	<ga/gaconfig.h>
+	<ga/garandom.h>
+	<ga/std_stream.h>
+	<ga/GAAllele.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1515680285 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gamask.h
+	<string.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga1dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gabinstr.h
+	<string.h>
+	<ga/gatypes.h>
+	<ga/garandom.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga2darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA2DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga2dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga3darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA3DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ga3dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gabasega.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GAParameter.h>
+	<ga/GAStatistics.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaparameter.h
+	<ga/gaconfig.h>
+	<ga/gatypes.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gastatistics.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gapopulation.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GASelector.h>
+	<ga/GAScaling.h>
+	<ga/GAEvalData.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaselector.h
+	<string.h>
+	<ga/gaid.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gascaling.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/gatypes.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaversion.h
+	<ga/gaconfig.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gabin2decgenome.h
+	<ga/GA1DBinStrGenome.h>
+	<ga/gabincvt.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gabincvt.h
+	<ga/gatypes.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\galistbase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\ganode.h
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\galist.c
+	<ga/GAList.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\galist.h
+	<ga/gaerror.h>
+	<ga/GAListBASE.h>
+	<ga/GAList.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gademega.h
+	<ga/GABaseGA.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gaincga.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\galistgenome.h
+	<ga/GAList.h>
+	<ga/GAGenome.h>
+	<ga/GAListGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gasimplega.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gasstatega.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gastringgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAStringGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatree.h
+	<ga/gaerror.h>
+	<ga/GATreeBASE.h>
+	<ga/GATree.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatreebase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatreegenome.h
+	<ga/GATree.h>
+	<ga/GAGenome.h>
+	<ga/GATreeGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\gadcrowdingga.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\garealgenome.c
+	<ga/GARealGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\ga\garealgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GARealGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\garandom.h
+	<stdlib.h>
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<math.h>
+	<limits.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatypes.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaconfig.h
+	<sgidefs.h>
+	<stdlib.h>
+	<assert.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga1darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaarray.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gagenome.h
+	<ga/gaid.h>
+	<ga/gaconfig.h>
+	<ga/gaerror.h>
+	<ga/GAEvalData.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaid.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaerror.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\std_stream.h
+	<ga/gaconfig.h>
+	<iostream>
+	<fstream>
+	<iostream.h>
+	<fstream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaevaldata.h
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaallele.h
+	<ga/gaconfig.h>
+	<ga/garandom.h>
+	<ga/std_stream.h>
+	<ga/GAAllele.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaallele.c
+	<string.h>
+	<ga/GAAllele.h>
+	<ga/gaerror.h>
+
+1515680285 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga1darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gamask.h
+	<string.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga1dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gabinstr.h
+	<string.h>
+	<ga/gatypes.h>
+	<ga/garandom.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga2darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA2DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga2darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA2DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga2dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga3darraygenome.h
+	<ga/GAArray.h>
+	<ga/GAGenome.h>
+	<ga/GAAllele.h>
+	<ga/GA3DArrayGenome.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga3darraygenome.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ga/garandom.h>
+	<ga/GA3DArrayGenome.h>
+	<ga/GAMask.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ga3dbinstrgenome.h
+	<ga/GABinStr.h>
+	<ga/GAGenome.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gabasega.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GAParameter.h>
+	<ga/GAStatistics.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaparameter.h
+	<ga/gaconfig.h>
+	<ga/gatypes.h>
+	<ga/std_stream.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gastatistics.h
+	<ga/gatypes.h>
+	<ga/gaconfig.h>
+	<ga/GAGenome.h>
+	<ga/GAPopulation.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gapopulation.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/GASelector.h>
+	<ga/GAScaling.h>
+	<ga/GAEvalData.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaselector.h
+	<string.h>
+	<ga/gaid.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gascaling.h
+	<ga/gaconfig.h>
+	<ga/gaid.h>
+	<ga/gatypes.h>
+	<ga/GAGenome.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaversion.h
+	<ga/gaconfig.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gabin2decgenome.h
+	<ga/GA1DBinStrGenome.h>
+	<ga/gabincvt.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gabincvt.h
+	<ga/gatypes.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\galistbase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\ganode.h
+	<ga/gaconfig.h>
+	<ga/std_stream.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\galist.c
+	<ga/GAList.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\galist.h
+	<ga/gaerror.h>
+	<ga/GAListBASE.h>
+	<ga/GAList.C>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gademega.h
+	<ga/GABaseGA.h>
+
+1510585886 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gaincga.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\galistgenome.h
+	<ga/GAList.h>
+	<ga/GAGenome.h>
+	<ga/GAListGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\galistgenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GAListGenome.h>
+	<ga/GAMask.h>
+	<ga/garandom.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gasimplega.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gasstatega.h
+	<ga/GABaseGA.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gastringgenome.h
+	<ga/GAAllele.h>
+	<ga/GA1DArrayGenome.h>
+	<ga/GAStringGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gastringgenome.c
+	<ga/GAStringGenome.h>
+	<ga/GAAllele.C>
+	<ga/GA1DArrayGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatree.h
+	<ga/gaerror.h>
+	<ga/GATreeBASE.h>
+	<ga/GATree.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatreebase.h
+	<ga/GANode.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatree.c
+	<ga/GATree.h>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatreegenome.h
+	<ga/GATree.h>
+	<ga/GAGenome.h>
+	<ga/GATreeGenome.C>
+
+1510585888 c:\users\wojciech\dropbox\repozytorium\cpp\algorytm_genetyczny\\\ga\gatreegenome.c
+	<stdio.h>
+	<stdlib.h>
+	<ga/GATreeGenome.h>
+	<ga/garandom.h>
+

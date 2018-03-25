@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>System rejestracji danych pogodowych - INSTRUKCJA</title>
+	</head>
+	<body>
+		<header>
+			<h1>System rejestracji danych pogodowych</h1>
+			<h3>Instrukcje</h3>
+			<a href = "index.php">powrót na stronę startową</a>
+			<h3>
+				Nawigacja
+			</h3>
+			<nav>
+				<a href="#zalozenia">zalozenia projektu</a>
+				<a href="#mapa">mapa strony</a>
+				<a href="#konto_demonstracyjne">konto demonstracyjne</a>
+				<a href="#dodawanie_pomiarow">dodawanie pomiarów</a>
+				<a href="#przegladanie_pomiarow">przeglądanie pomiarów</a>
+				
+			
+			</nav>
+			
+			<h3 id = "parametry"> założenia projektu <h3>
+				<h5>
+					W ramach niniejszego projektu opracowano system rejestracji danych pogodowych. System obsługuje użytkowników oraz 
+					urządzenia rejestujące dane. Urzytkownik może załorzyć konto i wiązać z tym kontem urządzenia które będą zbierać pomiary.
+					Nie jest konieczne by urządzenie posiadało nie przerwane połączenie z siecią, gdyż system został wyposażony w mechanizm 
+					buforowania danych w lokalnej bazie danych przeglądarki. Zalogowany użytkownik ma możliwość przeglądania
+					zarejestowanych przez swoje urządzenia danych, za równo w postaci tabel, jak i wykresów.
+				</h5>
+			<h3 id = "mapa"> mapa strony <h3>
+				<h5>
+					strona główna - w zalerzności od stanu sesji klienta, na stonie głownej widoczne są linki do różnych
+					funkcjonalności serwisu:
+					<br>
+					<br>
+					Użytkownik nie zalogowany:
+					<br>
+					-Rejestracja
+					<br>
+					-Logowanie(email, hasło)
+					<br>
+					-Logowanie jako urzadzenie(ID urzadzenia)
+					<br>
+					<br>
+					Zalogowany użytkownik:
+					<br>
+					-Dane użytkownika
+					<br>
+					-Zarejestrowani użytkownicy
+					<br>
+					-Usuń konto
+					<br>
+					-Wylogowanie z serwisu
+					<br>
+					-Dodaj nowe urządzenie(opis, współrzędne geograficzne)
+					<br>
+					-Listuj urządzenia(listuje wszystkie urządzenia powiązane z urzytkownikiem, umożliwia przeglądanie pomiarów, usuwanie urządzeń)
+					<br>
+					<br>
+					Zalogowane urządzenie:
+					<br>
+					-Dodaj pomiar(temperatura, ciśnienie, siła i kierunek wiatru)
+					<br>
+					-Wylogowanie urzadzenia z serwisu
+					<br>
+				</h5>
+			<h3 id = "konto_demonstracyjne"> konto demonstracyjne<h3>
+				<h5>
+					Dla potrzeb demonstracyjnych założono specjalne konto użytkownika i dołączono do niego 2 przykładowe urządzenia.
+					Dane dostępowe do konta:
+					<br>
+					EMAIL : moj@email
+					<br>
+					HASŁO : abcd
+					<br>
+					Po zalogowaniu się na to konto, dostępna jest opcja dodawania urządzeń i przeglądania 
+					zarejestrowanych przez nie danych.
+					<br>
+				</h5>	
+				
+			<h3 id = "dodawanie_pomiarow"> dodawanie pomiarów<h3>
+				<h5>
+					Aby zalogować się jako urządzenie i dodać pomiary, nalerzy:<br>
+					1)wylistować swoje urządzenia,<br>
+					2)zapamiętać ID wybranego urządzenia,<br>
+					3)wylogować się i zalogować jako urządzenie przy pomacy wybranego ID,<br>
+					4)wybrać opcje dodaj pomiary,<br>
+					5)zarejestrować kilka przykładowych pomiarów (dane zostaną zbuforowane w bazie danych przeglądarki) 
+					i kliknąć przycisk "SYNCHRONIZUJ", jeśli komputer posiada dostęp do sieci, jest w trybie ONLINE dane zostaną 
+					zapisane na serwerze i usunięte z bufora, lub jeśli jest w trybie OFFLINE zostanie wyświetlony komunikat o braku 
+					dostępu do sieci.<br>
+				</h5>
+			
+			<h3 id = "przegladanie_pomiarow"> przegladanie pomiarów<h3>
+				<h5>
+					Po ponownym zalogowaniu jako użytkownik, można obserwować dane spływające z urządzeń. Aby to zrobić
+					należy:<br>
+					1)wylistować swoje urządzenia,<br>
+					2)wybrać z listy wybraną wielkość fizyczną do wyświetlania (temperatura, ciśnienie, siła/kierunek wiatru),<br>
+					3)kliknąć przycisk "RYSUJ" przy wybranym urządzeniu.<br>
+				</h5>
+					
+
+
+				
+			
+			
+		</header>
+		
+
+		
+		
+	</body> 
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Administracja baza danych wojska</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="admin.js"></script>
+  </head>
+  <body>
+	<select id='nazwa_tabeli' onchange = "update_forms();">
+	</select>
+	<select id='operacja' onchange = "update_forms()">
+	  <option value="insert">insert</option>
+	  <option value="update">update</option>
+	  <option value="select">select</option>
+	  <option value="delete">delete</option>
+	</select>
+	<div id="prop">
+		<h5>wlasciwosci do modyfikacji</h5>
+		<form id="properties"></form>
+	</div>
+	<div id="cond">
+		<h5>wlasciwosci precyzujace</h5>
+		<form id="conditions"></form>
+	</div>
+	<br>
+	<button onclick="submit_forms()">ZATWIERDZ</button> 
+	<p><a href='index.php'>Powrot do programu glownego</a></p>
+	<p><a href='https://drive.google.com/open?id=158o611_t-Ff53xyHQAG_6bX6s2cyU5BX'>INSTRUKCJA UZYTKOWNIKA</a></p>
+	<div id="info_z_bazy"></div>
+  </body>
+</html>

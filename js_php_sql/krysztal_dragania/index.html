@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Animacja drgań atomów w krysztale</title>
+		<script src="proj1.js"></script>
+
+	</head>
+	<body onload=inicjalizujSiec()>
+		<header>
+			<h1>Symulacja drgań sieci krystalicznej</h1>
+			<h3>Opis projektu</h3>
+			<h5>
+				Stona umożliwia obserwacje drgań atomów kryształu w płaskiej przestrzeni 2D. Urzytkownik definjuje parametry sieci krystalicznej, stosowany krok czasowy
+				symulacji i metodę stosowaną numeryczną. W celu zainicjalizowania drgań nalerzy wyprowadzić któreś z atomów z ich pierwotnych położeń równowagi - szczeguły w 
+				<a href = "instrukcja.html">instrukcji</a>
+			</h5>	
+		</header>
+		<span>
+			<span>
+				<canvas id="obraz" width="500" height="500" ></canvas>
+			</span>
+			<span id = "parametry_symulacji">
+				<br>
+				<a class = "parametry" >promień atomu</a>
+				<textarea id = "at_r" rows="1" cols="10" onchange = "aktualizujParametry();rysujSiec();">10</textarea>
+				<a class = "parametry">ilość atomów w wierszu/kolumnie</a>
+				<textarea id = "nxy" rows="1" cols="10" onchange = "aktualizujParametryWznowSymulacje();">6</textarea>
+				<a class = "parametry">krok czasowy symulacji</a>
+				<textarea id = "dt" rows="1" cols="10" onchange = "aktualizujParametryWznowSymulacje();">0.01</textarea>
+				<a class = "parametry">co ile kroków czasowych <br> klatka animacji</a>
+				<textarea id = "klatka_co_ile" rows="1" cols="10" onchange = "aktualizujParametryWznowSymulacje();">10</textarea>
+				
+				<a class = "parametry">ustawiaj atomy: pozycja X</a>
+				<textarea id = "ust_poz_X" rows="1" cols="10" onchange = "ustawiajAtomyPozycja();">1</textarea>
+				<a class = "parametry">ustawiaj atomy: pozycja Y</a>
+				<textarea id = "ust_poz_Y" rows="1" cols="10" onchange = "ustawiajAtomyPozycja();">1</textarea>
+				
+				<a class = "parametry">ustawiaj atomy: pożenie wybranego atomu</a>
+				<textarea id = "ust_polozenie" rows="1" cols="40" readonly > </textarea>
+				
+				<a class = "parametry">nowe położenie wybranego atomu X</a>
+				<textarea id = "nowe_pol_X" rows="1" cols="10" onchange = "ustawiajAtomyPolozenie();" ></textarea>
+				<a class = "parametry">nowe położenie wybranego atomu Y</a>
+				<textarea id = "nowe_pol_Y" rows="1" cols="10" onchange = "ustawiajAtomyPolozenie();" ></textarea>
+				
+				<a class = "parametry">metoda numeryczna</a>
+				<br>
+				<select id = "metoda_numeryczna" onchange = "aktualizujParametryWznowSymulacje();" >
+				  <option value="Euler">met. Eulera</option>
+				  <option value="Varlet" >met. Varleta</option>
+				  <option value="BeemanSchofield">met. Beeman-Schofielda</option>
+				</select>
+				<br>
+				<button id="play" onclick = wlaczWylaczSymulacje()>włącz/wyłącz symulacje</button>
+			</span>
+		</span>
+
+		
+		
+	</body> 
+</html>

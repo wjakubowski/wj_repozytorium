@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Lista urzadzen</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="listuj_urzadzenia.js"></script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  </head>
+  <body onload="listujUrzadzenia()">
+	<div id="lista_urzadzen">
+	</div>
+	<select id='typ_wykresu' onchange = "">
+	  <option value="temperatura">temperatura</option>
+	  <option value="cisnienie">cisnienie</option>
+	  <option value="sila_wiatru">sila wiatru</option>
+	  <option value="kierunek_wiatru">kierunek wiatru</option>
+	</select>
+	<p><a href='index.php'>Powrot do programu glownego</a></p>
+	<div id="wykres">
+	</div>
+  </body>
+</html>
