@@ -1,3 +1,3 @@
-W tym repozytorium zamieœci³em pewn¹ iloœæ projektów informatycznych realizowanych które realizowa³em w trakcie studiów i nie tylko.
-Projekty te obejmuj¹ jêzyki programowania C++, Python, oraz ³¹cznie PHP, JavaScript, SQL. 
-W ka¿dym z projektów osobno znajduje siê plik README opisuj¹cy tematykê i u¿yte w projekcie biblioteki.
+W tym repozytorium zamieÅ›ciÅ‚em pewnÄ… iloÅ›Ä‡ projektÃ³w informatycznych, ktÃ³re realizowaÅ‚em w trakcie studiÃ³w i nie tylko.
+Projekty te obejmujÄ… jÄ™zyki programowania C++, Python, oraz Å‚Ä…cznie PHP, JavaScript, SQL. 
+W kaÅ¼dym z projektÃ³w osobno znajduje siÄ™ plik README opisujÄ…cy tematykÄ™ i uÅ¼yte w projekcie biblioteki.
